@@ -1,0 +1,19 @@
+# Core deep-learning stack
+torch>=2.0
+torchvision>=0.15
+
+# Numerics, data handling, metrics
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+Pillow>=9.5
+
+# Figures
+matplotlib>=3.7
+
+# Notes:
+#   - A CUDA-capable GPU is recommended but not required (CPU works, slowly).
+#   - Install the CUDA build of torch that matches your driver from
+#     https://pytorch.org/get-started/locally/ if you want GPU acceleration.
+#   - Experiments in the paper were run on Python 3.12 with PyTorch 2.x + CUDA.
+#   - To pin exact versions from your machine, run:  pip freeze > requirements-lock.txt

@@ -1,0 +1,52 @@
+# ---- Datasets (DO NOT commit — download from original sources; see README) ----
+data/
+Datasets/
+*.zip
+*.tar
+*.tar.gz
+# raw image formats (guard against accidentally committing dataset images)
+*.jpg
+*.jpeg
+*.JPG
+# (note: figure PNGs under results/ are intentionally committed — see below)
+
+# ---- Trained model weights (large, regenerable) ----
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+runs/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+.vscode/
+.idea/
+*.swp
+
+# ---- LaTeX build artifacts (if you keep the paper in-repo) ----
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ---- Local environment locks you may not want public ----
+# requirements-lock.txt   # uncomment if it leaks private index URLs
