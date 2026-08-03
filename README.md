@@ -34,6 +34,7 @@ appears in training), so results on it are inflated by construction.
 │   │                           #   bootstrap CIs, cross-dataset mode, leakage probe
 │   ├── gradcam_analysis.py     # Grad-CAM explainability + runtime/cost profiling
 │   ├── make_figures_v2.py      # generates results/calibration/literature figures
+│   ├── make_seed_fig.py        # generates seed variability figure
 │   └── make_gradcam_fig.py     # generates the quantitative Grad-CAM figure
 ├── results/                    # all CSVs behind the paper's numbers (see mapping below)
 │   ├── summary_*_agg.csv        #   mean ± SD over seeds  →  the values in the paper's tables
@@ -110,6 +111,7 @@ python src/gradcam_analysis.py --dataset handpd --root data/HandPD --task spiral
 # Figures
 python src/make_figures_v2.py
 python src/make_gradcam_fig.py
+python src/make_seed_fig.py
 ```
 
 Fixed hyperparameters (identical across every architecture, dataset and protocol): input
