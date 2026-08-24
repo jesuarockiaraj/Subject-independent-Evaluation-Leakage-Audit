@@ -1,7 +1,6 @@
 # Subject-Independent Evaluation of Deep Learning for Parkinson's Disease Detection from Handwriting Images
 
-Code and results for the paper **"Subject-independent evaluation of deep learning for
-Parkinson's disease detection from handwriting images: how much accuracy is real?"**
+Code and results for the paper **"Beyond Random Splits: Subject-Level Validation Reveals Overestimated Performance in Handwriting-Based Parkinson’s Disease Diagnosis"**
 
 Deep learning on hand-drawn spirals, meanders and waves is routinely reported to detect
 Parkinson's disease (PD) with 95–99% accuracy. These numbers are typically obtained by
