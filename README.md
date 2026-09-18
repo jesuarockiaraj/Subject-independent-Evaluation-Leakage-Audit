@@ -52,6 +52,9 @@ appears in training), so results on it are inflated by construction.
 
 The datasets are **not** included in this repository; download them from their original
 sources and place them under a local `data/` directory (git-ignored).
+The datasets are available in these given link
+HandPD -- <https://wwwp.fc.unesp.br/~papa/pub/datasets/Handpd/>
+Parkinson's Drawings -- <https://www.kaggle.com/datasets/kmader/parkinsons-drawings>
 
 | Dataset | Source | Notes |
 |---|---|---|
